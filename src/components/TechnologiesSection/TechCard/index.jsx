@@ -1,13 +1,8 @@
-import { technologies } from "../../../data/technologies";
-
-export const TechCard = () => {
+export const TechCard = ({ img, alt, name }) => {
   return (
-    <ul>
-      {technologies.map((technology) => (
-        <li key={technology.name}>
-          <img src={technology.img} alt={technology.name} />
-        </li>
-      ))}
-    </ul>
+    <li>
+      <img src={img} alt={alt} />
+      <h3>{name}</h3>
+    </li>
   );
 };
