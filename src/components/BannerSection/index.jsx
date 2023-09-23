@@ -2,7 +2,7 @@ import banner from "../../assets/banner-img.png";
 
 export const AboutSection = ({ username, about }) => {
   return (
-    <>
+    <section>
       <div>
         <p>{username}</p>
         <h1>Bem vindo ao meu portfólio</h1>
@@ -13,6 +13,6 @@ export const AboutSection = ({ username, about }) => {
         <button>Saiba mais</button>
         <img src={banner} alt="banner" />
       </div>
-    </>
+    </section>
   );
 };
