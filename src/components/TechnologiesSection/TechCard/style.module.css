@@ -1,0 +1,11 @@
+.flexLi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 15.5rem;
+  height: 5.375rem;
+  gap: 1.25rem;
+  padding: 0.9375rem;
+  border-radius: 1.5625rem;
+  border: 0.0625rem solid var(--white-max);
+}

@@ -1,0 +1,43 @@
+.title-1{
+    font-size: var(--title-1);
+    font-weight: var(--weight);
+    color:var(--white-max);
+    line-height: normal;
+}
+.title-2{
+    font-size: var(--title-2);
+    font-weight: var(--weight);
+    color:var(--white-max);
+    line-height: normal;
+}
+.title-3{
+    font-size: var(--title-3);
+    font-weight: var(--weight);
+    color:var(--white-max);
+    line-height: normal;
+}
+
+.text{
+    font-size: var(--text-1);
+    font-weight: var(--weight);
+    color:var(--white-max);
+    line-height: normal;
+}
+
+.link{
+    font-size: var(--link);
+    font-weight: var(--weight);
+    color: var(--white-max);
+    line-height: normal;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+.paragraph{
+    font-size: var(--paragraph-1);
+    font-weight: var(--weight);
+    color:var(--white-max);
+    line-height: normal;
+}

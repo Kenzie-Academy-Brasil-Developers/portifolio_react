@@ -1,0 +1,11 @@
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 4.375rem;
+}
+
+.flexContainer > p{
+    max-width: 31.25rem;
+    align-self: flex-end;
+}

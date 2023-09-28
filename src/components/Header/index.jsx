@@ -1,13 +1,15 @@
+import styles from "./style.module.css"
+
 export const HeaderComponent = ({ img, about, stack, projects }) => {
   return (
-    <header>
+    <header className={styles.headerContainer}>
       <img src={img} alt="home page logo" />
-      <div>
-        <a href="#">{about}</a>
-        <a href="#">{stack}</a>
-        <a href="#">{projects}</a>
+      <div className={styles.flexDiv}>
+        <a className="link" href="#">{about}</a>
+        <a className="link" href="#">{stack}</a>
+        <a className="link" href="#">{projects}</a>
       </div>
-      <button>Contato</button>
+      <button className="button">Contato</button>
     </header>
   );
 };

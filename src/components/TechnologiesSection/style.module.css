@@ -1,0 +1,12 @@
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem
+}
+
+.flexDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.875rem
+}

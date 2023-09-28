@@ -1,0 +1,25 @@
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 5.625rem
+}
+
+.userName {
+  font-size: var(--text-1);
+  color: var(--primary-color);
+}
+
+.flexWellcome {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  max-width: 300px;
+}
+
+.flexWellcome > button{
+    align-self: flex-start;
+}
+
+.banner > img {
+  max-width: 100%;
+}

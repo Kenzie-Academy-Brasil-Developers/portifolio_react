@@ -1,8 +1,10 @@
+import styles from "./style.module.css"
+
 export const AboutMe = () => {
   return (
-    <section>
-      <h2>Sobre mim</h2>
-      <p>
+    <section className={`container ${styles.flexContainer}`}>
+      <h2 className="title-2">Sobre mim</h2>
+      <p className="paragraph">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex magna,
         imperdiet sodales sem quis, sollicitudin lobortis purus. Etiam a ipsum
         finibus, dictum leo non, ultrices dui. Nunc id felis pharetra, vehicula
