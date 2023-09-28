@@ -1,0 +1,34 @@
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 2rem 6.875rem 3rem 6.875rem;
+}
+
+.flexDiv{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 12.5rem;
+    gap: 2.8125rem;
+    border-bottom: 0.0625rem solid var(--white-max);
+    border-top: 0.0625rem solid var(--white-max);
+}
+
+.flexContactsAndCopyright{
+    display: flex;
+    flex-direction: column;
+    gap:3.125rem
+}
+
+.flexDivImg{
+    display: flex;
+    flex-direction: row;
+    gap:0.9375rem
+}

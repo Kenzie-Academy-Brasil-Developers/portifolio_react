@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1024px;
+    max-width: 64rem;
     margin: 0 auto;
     padding: 2rem 6.875rem 3rem 6.875rem;
 }

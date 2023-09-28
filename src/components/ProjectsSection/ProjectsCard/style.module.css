@@ -1,7 +1,21 @@
-.flexDiv{
-width: 439px;
-height: 183px;
-border-radius: 1.5625rem;
-border: 0.0625rem solid var(--white-solid)
+.flexLi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24.1875rem;
+  height: 11.4375rem;
+  padding: 1.5625rem 1.25rem;
+  border-radius: 1.5625rem;
+  border: 0.0625rem solid var(--white-max);
 }
 
+.flexDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linkAlt {
+  color: var(--primary-color);
+}
